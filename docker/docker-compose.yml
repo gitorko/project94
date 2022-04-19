@@ -9,7 +9,7 @@ services:
     volumes:
       - cache:/data
   web-server:
-    image: project94:1.0.0
+    image: gitorko/project94:1.0.0
     ports:
       - "8080:8080"
     links:
