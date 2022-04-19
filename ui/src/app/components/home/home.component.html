@@ -1,0 +1,25 @@
+<div class="content-container">
+  <div class="content-area">
+
+    <div class="clr-row">
+
+      <div class="clr-col-12">
+        <div class="alert-section">
+          <app-alert></app-alert>
+        </div>
+
+        <h2 style="text-align: center">
+          Votes: {{voteInfo}}
+        </h2>
+        <br/>
+
+        <div cds-layout="horizontal gap:sm" style="text-align: center">
+          <button type="submit" class="btn btn-primary" (click)="saveVote('cat')">Cat</button>
+          <button type="submit" class="btn btn-primary" (click)="saveVote('dog')">Dog</button>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
