@@ -1,4 +1,4 @@
-FROM openjdk:11
+FROM openjdk:17
 WORKDIR /var/app
 COPY ./build/libs/project94-1.0.0.jar /var/app/project94-1.0.0.jar
 ENV _JAVA_OPTIONS '-Dspring.redis.host=redis-server'
