@@ -28,7 +28,6 @@ docker run --name my-redis -p 6379:6379 -d redis redis-server --requirepass "pas
 ### Dev
 
 To run the backend in dev mode.
-Postgres DB is needed to run the integration tests during build.
 
 ```bash
 ./gradlew clean build
